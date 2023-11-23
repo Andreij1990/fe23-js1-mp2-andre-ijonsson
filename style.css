@@ -1,0 +1,87 @@
+@font-face {
+    font-family: minFont;
+    src: url(BungeeSpice-Regular.ttf);
+}
+@font-face {
+    font-family: resFont;
+    src: url(DEBUG\ FREE\ TRIAL-ba81.woff2);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1, #nameForm, #namnVisat {
+    text-align: center;
+}
+
+#namnVisat {
+    font-family: minFont;
+    font-size: 30px;
+    text-align: center;
+}
+.rv {
+    text-align: right;
+    font-size: 18px;
+    color: blue;
+    display: none;
+}
+.dv {
+    display: none;
+    text-align: left;
+}
+.dr {
+    text-align: center;
+}
+.dold, .bold, .fold, .hold, .told, .sold {
+    display: none;
+}
+
+.knapp {
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+    font-size: 18px;
+}
+#knappar {
+    margin: auto;
+}
+#stenen, #saxen, #påsen {
+    font-size: 18px;
+}
+.bilder {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+#minBild, #dinBild, #sinBild, #tinBild, #vinBild, #pinBild {
+    max-width: 100%;
+    max-height: 100%;
+} 
+.ave, .aoe, .afe {
+    margin: 10px auto;
+}
+.BO {
+    width: fit-content;
+    margin: auto;
+    font-size: 18px;
+}
+.res {
+    text-align: center;
+    font-size: 30px;
+    font-family: resFont;
+}
+.spelarbild {
+    position: absolute;
+    left: 70px;
+    width: 300px;
+    height: 300px;
+}
+.datorbild {
+    position: absolute;
+    right: 70px;
+    width: 300px;
+    height: 300px;
+}
