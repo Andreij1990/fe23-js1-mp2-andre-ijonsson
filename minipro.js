@@ -92,13 +92,6 @@ function SpelarNamn () {
   knapp.addEventListener("mouseout", ingenFärg);
 }
 
-function EnterTryck(event) {
-  if (event.key === 'Enter') {
-    SpelarNamn();
-  }
-}
-
-nameInput.addEventListener("keypress", EnterTryck);
 nameButton.addEventListener("click", SpelarNamn);
 nameButton.addEventListener("mouseover", ändraPekare);
 nameButton.addEventListener("click", ingenFärg);
